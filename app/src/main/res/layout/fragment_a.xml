@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0000ff"
+    android:orientation="vertical"
+    tools:context="com.lm2a.backnav.FragmentA">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:onClick="irAFragB"
+        android:text="Ir a Frag B" />
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Frag A"
+        android:textColor="#ffffffff"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
+
+
+
